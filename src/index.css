@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+/* custom marquee animation for product cards */
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 28s linear infinite;
+    width: max-content;
+  
+ 
+  }
+
+  .pause-animation {
+    animation-play-state: paused;
+  }
+}
+
+/* ⬇️ Keyframes for marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
