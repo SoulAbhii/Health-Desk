@@ -6,8 +6,7 @@ This project includes multiple product sections, testimonials, charity initiativ
 ---
 
 ## 🚀 Live Project
-(Add your live deployed link here)
-https://your-live-site-link.com
+(https://health-desk-clinic.netlify.app/)
 
 ---
 
